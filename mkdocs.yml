@@ -1,0 +1,106 @@
+site_name: Lavadocs
+site_description: Reflections on presentations from Lavacon and UMN Accessibility Ambassadors
+
+nav:
+  - Home: index.md
+  - WRIT 4662: 
+    - Sam Beaulieu: 4662/beaulieu.md
+    - Madison Bowes: 4662/bowes.md
+    - Gabriel Fink: 4662/fink.md
+    - Natalie Gardner: 4662/gardner.md
+    - Jeremy Hawkins: 4662/hawkins.md
+    - Megan Lange: 4662/lange.md
+    - Dmitri Persuad: 4662/persaud.md
+    - Nick Pottorff: 4662/pottorff.md
+    - Meg Schulte: 4662/schulte.md
+    - Katie Smrekar: 4662/smrekar.md
+    - Rayna Taylor: 4662/taylor.md
+    - Brent Tester: 4662/tester.md
+    - Nicholas Van Orsdel: 4662/vanorsdel.md
+    - Liam Vertal: 4662/vertal.md
+    - Pong Tay Vue: 4662/vue.md
+    - Sebastian Wells: 4662/wells.md
+    - Kathleen Wernecke: 4662/wernecke.md
+    - Emalee Yang: 4662/yang.md
+  - WRIT 5662:
+    - Rorie Anders: 5662/anders.md
+    - Christine Boisjoli: 5662/boisjoli.md
+    - Niklas Curle: 5662/curle.md
+    - Sandra Dekoum: 5662/dekoum.md
+    - Katie Elder: 5662/elder.md
+    - Mary Frances Hull: 5662/hull.md
+    - Maxine Kobinski: 5662/kobinski.md
+    - Ciara Kohlhagen: 5662/kohlhagen.md
+    - Brian Le Lay: 5662/lelay.md
+    - Nicole McCoy: 5662/mccoy-1.md
+    - Deb Merton: 5662/merton.md
+    - Lauren Milly: 5662/milly.md
+    - Rachel Naegele: 5662/naegele.md
+    - Sybil Scott: 5662/scott.md
+    - Jack Smith: 5662/smith.md
+    - Cal U'Ren: 5662/uren.md
+
+    
+
+theme: 
+  name: material
+  language: en
+  features: navigation.tabs
+  palette:
+    scheme: preference
+    primary: green
+    accent: deep orange
+  font:
+    text: Lato
+    code: Roboto Mono
+
+
+
+
+  # Plugins
+plugins:
+  - search
+  - awesome-pages
+  - print-site:
+      add_cover_page: true
+     
+
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: danieljcard1
+      repo: lavadocs
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+  
+
